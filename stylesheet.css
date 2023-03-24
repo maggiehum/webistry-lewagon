@@ -22,6 +22,10 @@ div.form {
     text-align: center;
 }
 
+input, label {
+  display:block;
+}
+
 form {
   display: inline-block;
   margin-left: auto;
@@ -31,9 +35,28 @@ form {
   width: 451px;
   height: 491px;
   border-radius: 24px;
+  padding: 24px;
 }
 
 .images {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding-top: 53px;
+}
+
+.input {
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 387px;
+  height: 44px;
+  flex-grow: 1;
+}
+
+.btn {
+  width: 387px;
+  height: 54px;
+  font-size: 16px;
+  background-color: #F05F5D;
+  border: none;
+  border-radius: 12px;
 }
