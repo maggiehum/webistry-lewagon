@@ -2,6 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="submit.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -11,13 +15,13 @@
       </div>
       <h1>Level Up <strong class="rest-of-phrase">your coding skills with Webistry.</strong></h1>
 
-      <div class="form">
+      <div class="form" id="submitForm">
         <form action="file:///Users/maggiehum/code/maggiehum/webistry-test-maggie-hum/confirmation.html" method="POST">
           <h2>Let's get started by knowing more about you.</h2>
           <label for="first_name">Name</label>
-          <input type="name" class="input" placeholder="Enter your name" required>
+          <input type="name" class="input" placeholder="Enter your name" required></input>
           <label for="email">Email</label>
-          <input type="email" class="input" placeholder="Enter your email" required>
+          <input type="email" class="input" placeholder="Enter your email" required></input>
           <label for="language">What's your favourite coding language?</label>
           <select class="input" name="language" required>
             <option value="html">HTML</option>

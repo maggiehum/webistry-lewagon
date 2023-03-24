@@ -6,11 +6,13 @@
 h1 {
   color: #F05F5D;
   text-align: center;
-  font-size: 56px;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 body {
   background-color: #F0F1F4;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .rest-of-phrase {
@@ -71,4 +73,20 @@ label {
   display: inline-block;
   margin-bottom: 20px;
   border: #ECEDF2 solid 2px;
+}
+
+.box {
+  width: 451px;
+  height: 130px;
+  background-color: white;
+  margin: auto;
+  border-radius: 24px;
+}
+
+h2{
+  text-align: center;
+}
+
+.congrats {
+  color: #1C9D75;
 }
