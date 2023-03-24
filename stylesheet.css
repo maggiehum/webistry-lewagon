@@ -37,6 +37,7 @@ form {
   border-radius: 24px;
   padding: 24px;
   justify-content: center;
+  width: 451px;
 }
 
 .images {
@@ -89,4 +90,8 @@ h2{
 
 .congrats {
   color: #1C9D75;
+}
+
+h3 {
+  font-size: 24px;
 }
