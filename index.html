@@ -1,1 +1,31 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="images">
+        <img src="file:///Users/maggiehum/Downloads/webistry.svg" alt="webistry-logo">
+        <img src="file:///Users/maggiehum/Downloads/lewagon.svg" alt="le-wagon-logo">
+      </div>
+      <h1>Level Up <strong class="rest-of-phrase">your coding skills with Webistry.</strong></h1>
+
+      <div class="form">
+        <form action="submit">
+          <label for="first_name">Name</label>
+          <input type="name" id="name" placeholder="Enter your name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+          <label for="language">What's your favourite coding language?</label>
+          <select id="language" name="language" size="3" multiple required>
+            <option value="volvo">HTML</option>
+            <option value="saab">CSS</option>
+            <option value="fiat">JavaScript</option>
+          </select>
+          <input type="submit" value="Level up">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
